@@ -1,0 +1,30 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.2 <4.0.0'
+
+dependencies:
+  audio_video_progress_bar: ^2.0.2
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  http: ^1.2.1
+  just_audio: ^0.9.37
+  rxdart: ^0.27.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/1.png"
